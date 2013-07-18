@@ -3,7 +3,18 @@ Et d'ici je peux mettre toute machine à mes specifications avec un seul appel a
 Plus besoin de cle usb sauf si absence de connection web.
 
 /////////
-/ Usage 
+/ Usage: Merci à Neil Drew  à vimCast.org
 /////////
 
+Créer les liens symboliques
+en faisant:
 
+    ln -s ~/.vim/vimrc ~/.vimrc
+    ln -s ~/.vim/gvimrc ~/.gvimrc
+
+Basculer sur  `~/.vim` et 
+chargez les submodules en faisant:
+
+    cd ~/.vim
+    git submodule init
+    git submodule update
